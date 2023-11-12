@@ -1,0 +1,172 @@
+/* Set the font family to Roboto */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Increase the font size for all elements */
+body, h1, h2, h3, h4, h5, h6, p {
+    font-size: 32px;
+    input {
+        font-size: 24px;
+        color: #eceff4;
+        background-color: #3b4252;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    button {
+        font-size: 24px;
+        font-weight: bold;
+        color: #eceff4;
+        background-color: #4c566a;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        transition: all 0.3s ease;
+    }
+
+    h1 {
+        font-size: 48px;
+        font-weight: bold;
+        color: #eceff4;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .mainapp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Set the background color to the nord0 color */
+body {
+    background-color: #2e3440;
+}
+
+/* Set the text color to the nord6 color */
+body, h1, h2, h3, h4, h5, h6, p {
+    color: #eceff4;
+}
+
+input:hover {
+    box-shadow: 0 0 5px #8fbcbb;
+    transform: scale(1.05);
+}
+button:hover {
+    box-shadow: 0 0 5px #81a1c1;
+    transform: translateY(-2px);
+    background-color: #5e81ac;
+    color: #eceff4;
+}
+
+input:hover {
+    box-shadow: 0 0 5px #8fbcbb;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+/* Estilos para los botones */
+button {
+    font-size: 24px;
+    font-weight: bold;
+    color: #eceff4;
+    background-color: #4c566a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Efecto hover para los botones */
+button:hover {
+    box-shadow: 0 0 5px #8fbcbb;
+    transform: scale(1.05);
+}
+
+/* Set the link color to the nord4 color */
+a {
+    color: #8fbcbb;
+}
+
+/* Set the hover color for links to the nord6 color */
+a:hover {
+    color: #eceff4;
+}
+
+/* Set the border color to the nord3 color */
+button, input, select, textarea {
+    border-color: #4c566a;
+}
+
+/* Set the background color for inputs and textareas to the nord1 color */
+input, select, textarea {
+    background-color: #3b4252;
+}
+
+/* Set the color for placeholder text to the nord4 color */
+::placeholder {
+    color: #d8dee9;
+}
+
+/* Style for the className "title" */
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #eceff4;
+    text-align: center;
+}
+
+/* Style for the className "subtitle" */
+.subtitle {
+    font-size: 32px;
+    font-weight: bold;
+    color: #eceff4;
+    text-align: center;
+}
+
+/* Estilo para el componente DisplayResults */
+.displayResults p {
+    font-size: 16px;
+    color: #eceff4;
+    margin-top: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #4c566a;
+    border-radius: 5px;
+}
+
+.displayResults h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #eceff4;
+    margin: 20px;
+}
+
+.displayResults strong {
+    color: #a3be8c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.displayResults ul {
+    list-style: circle;
+    margin: 20px;
+    padding: 20px;
+    background-color: #4c566a;
+}
+.displayResults li {
+    font-size: 16px;
+    color: #eceff4;
+    margin-bottom: 10px;
+}
